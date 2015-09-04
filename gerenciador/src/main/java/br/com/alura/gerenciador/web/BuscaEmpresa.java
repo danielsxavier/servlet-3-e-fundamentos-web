@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.alura.gerenciador.Empresa;
 import br.com.alura.gerenciador.dao.EmpresaDAO;
 
+@SuppressWarnings("serial")
 @WebServlet(urlPatterns = "/busca")
 public class BuscaEmpresa extends HttpServlet {
 
